@@ -1,0 +1,344 @@
+/* My Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Root */
+
+:root {
+  --incon: "Inconsolata", monospace;
+  --bebas: "Bebas Neue", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+/* My Styles */
+
+.navbar {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  z-index: 99;
+}
+
+.container-fluid {
+  width: 95%;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.navbar-brand {
+  font-family: var(--incon);
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: var(--incon);
+  font-size: 1.2rem;
+  text-shadow: 0 0 50px #000;
+}
+
+/* Link Page */
+
+.page-home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link a {
+  text-decoration: none;
+  font-family: var(--incon);
+}
+
+.link a h2 {
+  font-size: 4rem;
+  text-shadow: 1px 0px 20px #000;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.link a h2:hover {
+  color: aqua;
+  transform: scale(1.2);
+}
+
+.bg1 {
+  width: 25%;
+  height: 100vh;
+  background-image: url(../assets/img/tesla.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg2 {
+  width: 25%;
+  height: 100vh;
+  background-image: url(../assets/img/lambo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg3 {
+  width: 25%;
+  height: 100vh;
+  background-image: url(../assets/img/galardo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg4 {
+  width: 25%;
+  height: 100vh;
+  background-image: url(../assets/img/supra.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg5 {
+  width: 25%;
+  height: 100vh;
+  background-image: url(../assets/img/porsche.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  color: #fff;
+}
+
+/* Home */
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+.lambo-ttl {
+  font-size: 5rem;
+  font-family: var(--incon);
+  color: #fff;
+}
+
+.lambo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: drop-shadow(11px 8px 100px #fff);
+}
+
+.container p {
+  color: #fff;
+  font-family: var(--incon);
+}
+
+/* About */
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  position: relative;
+}
+
+.desc {
+  width: 50%;
+  height: 100%;
+  color: #fff;
+}
+
+.desc h2 {
+  font-family: var(--incon);
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.desc p {
+  width: 80%;
+  font-family: var(--incon);
+}
+
+.img-desc {
+  width: 50%;
+  height: 100%;
+  background-image: url(../assets/img/tesla.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Shop */
+
+.card-body {
+  font-family: var(--incon);
+}
+
+.card-body a {
+  text-decoration: none;
+  font-family: var(--incon);
+}
+
+.container h2 {
+  font-family: var(--incon);
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* Follow */
+
+.follow {
+  width: 100%;
+  height: 40vh;
+  background: #000;
+}
+
+.follow h2 {
+  font-size: 5rem;
+  color: #fff;
+  letter-spacing: 10px;
+  font-family: var(--bebas);
+}
+
+.follow p {
+  color: #fff;
+  width: 40%;
+  font-family: var(--incon);
+}
+
+.follow a {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: var(--incon);
+}
+
+/* afterflw */
+
+.afterflw {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../assets/img/lambo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* contact */
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: #77aaff 3px solid;
+  overflow: hidden;
+}
+header h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-family: var(--bebas);
+}
+.main {
+  background: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main h1 {
+  text-align: center;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--incon);
+}
+form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #333;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+}
+form button:hover {
+  background: #555;
+}
+
+/* Footer */
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top: #77aaff 3px solid;
+  margin-top: 20px;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+footer .footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+footer .footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+footer .footer-section p,
+footer .footer-section a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+footer .footer-section a:hover {
+  text-decoration: underline;
+}
+footer .footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
