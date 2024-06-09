@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 08, 2024 at 07:30 AM
+-- Generation Time: Jun 09, 2024 at 01:26 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -41,7 +41,8 @@ CREATE TABLE `produk` (
 
 INSERT INTO `produk` (`id`, `gambar`, `nama`, `desk`, `harga`) VALUES
 (3, 'mobil.png', 'Lamgborghini Aventador', 'Some quick example text to build on the card title and make up the bulk of the card&#039;s content.', '$2.000.000'),
-(4, 'lambo.jpg', 'zzzzzz', 'Some quick example text to build on the card title and make up the bulk of the card&#039;s content.', '$2.000.003');
+(4, 'lambo.jpg', 'zzzzzz', 'Some quick example text to build on the card title and make up the bulk of the card&#039;s content.', '$2.000.003'),
+(5, '6665ac7cc1ea9.png', 'Ripan J2 Prime', 'Maecenas, eget porttitor, leo sed, euismod, congue, nibh quis, scelerisque.asdasd', '$37');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +62,7 @@ ALTER TABLE `produk`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
